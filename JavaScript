@@ -1,0 +1,147 @@
+1. DATA TYPES
+  JavaScript has 8 Datatypes
+1. String , 2. Number, 3. Boolean, 4. Object, 5. Functions
+2. Number
+3. Bigint
+4. Boolean
+5. Undefined
+6. Null
+7. Symbol
+8. Object
+
+The Object Datatype
+The object data type can contain:
+
+1. An object
+2. An array
+3. A date
+
+1. STRING
+Strings are written with quotes. You can use single or double quotes
+
+2. NUMBER
+All JavaScript numbers are stored as decimal numbers (floating point).
+
+Numbers can be written with, or without decimals:
+
+3.BOOLEAN
+Booleans can only have two values: true or false.
+
+4. ARRAY
+JavaScript arrays are written with square brackets.
+
+5. OBJECT
+JavaScript objects are written with curly braces {}.
+
+6. FUNCTION
+function is a block of statement which gets executed whenever we call it.
+// reusability
+
+
+ARRAY
+* arrays is a built-in datastructure 
+* that allows us to store more than one item (dissimilar) 
+* in a consecutive memory locations
+
+  KEY VALUES
+// Javascript object representation allows us to store
+// multiple values in the form of key:value
+// the key values acts as an index
+// the keys and values does not necessarily in consecutive memory locations
+
+JSON
+JSON: JavaScript Object Notation string
+// is a lightweight data interchange format to exchange between a server and a web application
+
+
+FUNCTION TYPES
+1. named function
+2. nameless function or anonymous function
+3. Arrow function
+ 4. IIFE: Immediately Invoked Function Expression
+
+
+HOISTING
+its a mechanism where the variable and function declarations are moved to the top of their containing scope
+// we can use the variables and functions before they are declared
+
+GLOBAL SCOPE
+// scope refers to the visibility or accessibility of variables, functions and objects
+
+DESTRUCTURING
+destructuring is for extracting the values from the arrays or objects into distinct variables
+
+SPREAD AND REST OPERATORS
+spread operator and rest operator are denoted by '...'
+// spread is for expanding an iterable (array or object) to individual elements
+
+// rest is used in function parameters to represent infinite number of arguments into an array
+
+VARIABLES
+ 1. LET
+//  re-declarations allowed
+
+// re-assignment
+
+2. VAR
+ variables are changeables
+// variables are labels that points to a memory location
+
+3. CONST
+constants are the ones whose values once defined can't be changed.
+
+SCOPES
+JavaScript has 3 types of scope:
+
+BLOCK SCOPE
+
+ES6 introduced two important new JavaScript keywords: let and const.
+
+These two keywords provide Block Scope in JavaScript.
+
+
+FUNCTION SCOPE
+
+Each function creates a new scope.
+
+Variables defined inside a function are not accessible (visible) from outside the function.
+
+Variables declared with var, let and const are quite similar when declared inside a function.
+
+They all have Function Scope:
+
+
+GLOBAL SCOPE
+Global variables can be accessed from anywhere in a JavaScript program.
+
+ARROW FUNCTIONS
+Arrow functions were introduced in ES6.
+
+Arrow functions allow us to write shorter function syntax:
+
+let myFunction = (a, b) => a * b;
+
+Note: This works only if the function has only one statement.
+
+PROTOTYPE 
+        - It allows us to add methods and properties to objects
+        - It also allows us to enable inheritance and sharing of behavior between the objects
+
+CONSTRUCTOR
+The constructor method is a special method of a class for creating and initializing an object instance of that class.
+
+MAP, FILTER, REDUCE
+
+Map
+The map() method is used for creating a new array from an existing one, applying a function to each one of the elements of the first array.
+
+Filter
+The filter() method takes each element in an array and it applies a conditional statement against it.
+If this conditional returns true, the element gets pushed to the output array. 
+If the condition returns false, the element does not get pushed to the output array.
+
+Reduce
+The reduce() method reduces an array of values down to just one value. 
+To get the output value, it runs a reducer function on each element of the array.
+
+
