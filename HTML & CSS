@@ -37,4 +37,13 @@ INLINE STYLE SHEET
                 place known in the universe.
             </p>
 
+What is RWD?
+    - its an approach to web design that aims to make the web pages render well 
+on a variety of devices and different window / screen sizes.
 
+
+What is the mobile-first approach?
+    - design strategy
+    - from where we need to start designing a web page or building 
+a website or an application for mobile devices 
+and then eventually enhance it for the larger screens.
