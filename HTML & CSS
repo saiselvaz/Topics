@@ -1,0 +1,40 @@
+INLINE ELEMENT
+<!-- inline elements: that flow with the text content in the same line -->
+        <!-- examples: <a>, <img>, <strong>, <em>, <span> -->
+
+BLOCKLINE ELEMENT
+<!-- block elements: starts on a new line -->
+        <!-- <h1>Header 1</h1>
+
+CSS- CASCADING STYLE SHEETS
+
+EXTERNAL STYLE SHEETS
+ /* CSS RULE */
+            /* 
+                selector {
+                    property: value;
+                } 
+            */
+
+            /* h1 {
+                font-size: 60px;
+                color: blueviolet;
+            }
+ 
+            p {
+                color: red;
+                font-size: 24px;
+            }
+
+            div {
+                text-align: center;
+            } */
+ 
+INLINE STYLE SHEET
+<!-- Inline Style -->
+            <!-- <p style="color:darkgreen; font-size: 22px;">
+                Earth is third planet from the Sun and the only
+                place known in the universe.
+            </p>
+
+
