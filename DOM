@@ -1,0 +1,86 @@
+WHAT IS DOM?
+The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+
+
+createElement() — create a new element
+
+setAttribute() — set any needed
+ attributes, such as ID's or classes
+
+createTextNode() — create any needed content
+1
+appendChild() — attach the new text node to the element
+
+
+QUERY SELECTOR VS QUERY SELECTORALL
+
+querySelector is used to select a single element from the DOM tree, while document. querySelectorAll is used to select multiple elements from the DOM tree.
+
+INNERTEXT VS INNERHTML
+
+innerText returns all text contained by an element and all its child elements. innerHtml returns all text, including html tags, that is contained by an element.
+
+
+append vs appendChild
+Element.append() allows you to also append string objects, whereas Node.appendChild() only accepts Node objects.
+
+Window - Common Util function 
+There are no official standards for the Browser Object Model (BOM).
+
+window.innerHeight - the inner height of the browser window (in pixels)
+
+window.innerWidth - the inner width of the browser window (in pixels)
+
+OTHER METHODS
+window.open() - open a new window
+
+window.close() - close the current window
+
+window.moveTo() - move the current window
+
+window.resizeTo() - resize the current window
+
+setTimeout Vs setInterval
+
+setTimeout(function, milliseconds)
+Executes a function, after waiting a specified number of milliseconds.
+
+setInterval(function, milliseconds)
+Same as setTimeout(), but repeats the execution of the function continuously.
+
+
+PROMPT, ALERT AND CONFIRM
+alert(message): Display a popup box with the specified message with the OK button.
+
+confirm(message): Display a popup box with the specified message with OK and Cancel buttons.
+
+prompt(message, defaultValue): Display a popup box to take the user's input with the OK and Cancel buttons
+
+window.alert(), window.confirm(), window.prompt().
+
+
+WORKING WITH EVENTS
+
+addEventListener();
+
+The addEventListener() method attaches an event handler to the specified element.
+
+document.getElementById("myBtn").addEventListener("click", displayDate);
+
+
+onClick Event:
+The onclick event occurs when the user clicks on an HTML element.
+
+dbClick Event:
+The dblclick event fires when a pointing device button (such as a mouse's primary button) is double-clicked;
+
+onLoad Event:
+The onload event occurs when an object has been loaded.
+
+onload is most often used within the <body> element to execute a script once a web page has completely loaded all content (including images, script files, CSS files, etc.).
+
+onResize Event:
+The onresize event occurs when the browser window has been resized. 
+
+
+
