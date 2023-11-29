@@ -1,0 +1,67 @@
+CallBack:
+
+What is the CallBack?
+A callback is a function that is passed inside another function, and then called in that function to perform a task.
+
+Call Stack:
+The Event Loop checks the call stack, and when the call stack is empty, it loads the first callback from the callback queue to the call stack. 
+
+Web API:
+API stands for Application Programming Interface.
+
+A Web API is an application programming interface for the Web.
+
+A Browser API can extend the functionality of a web browser.
+
+A Server API can extend the functionality of a web server.
+
+
+Event Loop:
+An event loop is something that pulls stuff out of the queue and places it onto the function execution stack whenever the function stack becomes empty.
+
+QUEUE:
+The processing of functions continues until the stack is once again empty. Then, the event loop will process the next message in the queue (if there is one).
+
+Uses and Its purpose of CallBack:
+A callback's primary purpose is to execute code in response to an event. These events might be user-initiated, such as mouse clicks or typing. With a callback, you may instruct your application to "execute this code every time the user clicks a key on the keyboard."
+
+
+PAIN OF CALLBACK:
+Callback Hell: Callback Hell is essentially nested callbacks stacked below one another forming a pyramid structure
+
+
+
+PROMISES:-
+
+What is a Promise?
+A promise is an object returned by an asynchronous function, which represents the current state of the operation.
+
+Promise States:
+A Promise can go through three states:
+
+Pending
+Fulfilled
+Rejected
+
+pending: The promise is in it's initial state, it has not completed it's operation nor has it failed.
+
+fulfilled: The operation has completed successfully.
+
+rejected: The operation has failed.
+
+
+
+Promise Chaning:
+you want to execute two or more related asynchronous operations, where the next operation starts with the result from the previous step. 
+
+Promise.all():
+A method that combines all the user-defined promises and returns a single promise in the form of an array in which the result is the sequential combination of all the promises
+
+
+Use of Fetch():
+method is used to make asynchronous requests to the server and load the information that is returned by the server onto the web pages.
+
+Use of then():
+The then keyword is used with Promises and allows you to specify what should happen after a Promise is fulfilled
+
+
