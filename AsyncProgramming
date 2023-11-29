@@ -65,3 +65,8 @@ Use of then():
 The then keyword is used with Promises and allows you to specify what should happen after a Promise is fulfilled
 
 
+CRUD:
+
+CRUD is the acronym for CREATE, READ, UPDATE and DELETE. These terms describe the four essential operations for creating and managing persistent data elements, mainly in relational and NoSQL databases.
+
+
