@@ -25,3 +25,82 @@ DESTRUCTURING:
 Destructuring is a convenient way of creating new variables by extracting some values from data stored in objects or arrays.
 
 
+
+ES6: Ecma Script - 6
+
+    - Features
+        - arrow functions
+        - template literals
+        - destructuring
+    
+    - Variables/References
+        - let 
+        - const
+
+    - Classes
+        - class
+        - constructor
+    
+    - Promises
+    - functions 
+        - default parameter values
+    
+    - operators
+        - rest
+        - spread
+    
+    - loops
+        - for...of loop
+    
+    - datastructures
+        - Map
+        - Set
+    
+    - Arrays
+        - Array.from()
+        - Array.of()
+    
+    - modules
+        - import
+        - export
+
+
+
+Hoisting: 
+its just a behaviour where the variable declarations or the function declarations moved to the top of the file.
+
+
+
+ spread operator: 
+it takes out the values from the array and spreads it wherever we need as raw values
+
+
+
+rest operator:
+// the rest argument will receive any number of variable arguments passed via the function call and store it as an array
+
+
+function is hoisted
+// // it works, because the function definition has been moved to the top of the file -> hoisting
+
+
+// scoping: it tells the visibility of a reference/variable
+// global scope, function scope, block scope, local scope
+
+
+FUNCTIONS
+// functions are a block of statements that gets executed when we call it.
+
+
+1.named function.   2.nameless function or anonymous function
+3.arrow function
+4.IIFE function: Immediately Invoked Function Expression
+// its an anonymous function without any reference
+// since it does not have any reference, we cannot call it later
+// so, we should call it immediately after the function block.
+
+
+
+lexical scoping: static scoping
+// it determines the scope of a variable or identifier based on where it is declared rather than where it is executed during runtime.
+
