@@ -104,3 +104,18 @@ FUNCTIONS
 lexical scoping: static scoping
 // it determines the scope of a variable or identifier based on where it is declared rather than where it is executed during runtime.
 
+
+
+Understanding JSX:
+
+JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement() and/or appendChild() methods
+
+
+Understanding the Props:
+the data can be passed from one component to another component using these props, similar to how the arguments are passed in a function.
+
+
+
+Passing data through Props:
+
+Props data is sent by the parent component and cannot be changed by the child component as they are read-only.
