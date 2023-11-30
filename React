@@ -131,4 +131,55 @@ Props Vs State
 Props are used to pass data from a parent component to a child component,
 while state is used to manage data within a component.
 
+ Component Lifecycle:
+the different states/stages a component takes from getting created and rendered in the DOM to getting removed from the DOM
+
+
+StateFull and StateLess component
+
+ State: state refers to the data
+// that is used to manage and represent the internal state of the component.
+// it allows the components to keep track of and manage their own data ->
+the data will change over the time as a result of user interactions, data fetching, or other factors.
+
+// whenever the state of a component changes, it will cause re-rendering of the component
+
+
+
+Props Drilling: 
+props drilling occurs when you need to pass down the data through multiple nested components to reach the ones that require the data.	
+
+
+Hooks:
+Hooks allow us to "hook" into React features such as state and lifecycle methods.
+
+
+useState:
+The React useState Hook allows us to track state in a function component.
+
+State generally refers to data or properties that need to be tracking in an application.
+
+useEffect:
+The useEffect Hook allows you to perform side effects in your components.
+
+Some examples of side effects are: fetching data, directly updating the DOM, and timers.
+
+useEffect accepts two arguments. The second argument is optional.
+
+useEffect(<function>, <dependency>)
+
+Props Drilling:
+Prop drilling occurs when a parent component generates its state and passes 
+it down as props to its children components that do not consume the props 
+
+BrowserRouter: 
+BrowserRouter is a router implementation that uses the HTML5
+history API (pushstate, replacestate, and popstate events) to keep your UI in sync with the URL. 
+It is the parent component used to store all other components.
+
+Route: 
+A route is a conditionally shown component that provides UI when its path matches the current URL.
+
+Links: 
+The Links component creates links for different routes and implements navigation around the application. It works as an HTML anchor tag.
 
