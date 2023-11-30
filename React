@@ -119,3 +119,16 @@ the data can be passed from one component to another component using these props
 Passing data through Props:
 
 Props data is sent by the parent component and cannot be changed by the child component as they are read-only.
+
+
+Conditional Rendering:
+Conditional rendering in React works the same way conditions work in JavaScript.
+Use JavaScript operators like if or the conditional operator to create elements
+representing the current state, and let React update the UI to match them.
+
+Props Vs State
+
+Props are used to pass data from a parent component to a child component,
+while state is used to manage data within a component.
+
+
