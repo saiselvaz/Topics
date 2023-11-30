@@ -183,3 +183,9 @@ A route is a conditionally shown component that provides UI when its path matche
 Links: 
 The Links component creates links for different routes and implements navigation around the application. It works as an HTML anchor tag.
 
+
+MEMO
+memo lets you skip re-rendering a component when its props are unchanged.
+
+const MemoizedComponent = memo(SomeComponent, arePropsEqual?)
+
